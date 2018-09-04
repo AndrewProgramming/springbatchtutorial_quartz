@@ -1,4 +1,4 @@
-package com.lzj.quartz;
+package com.zhiyueinfo.springbatchtutorial.quartz;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,6 +14,8 @@ import org.springframework.scheduling.quartz.CronTriggerFactoryBean;
 import org.springframework.scheduling.quartz.JobDetailFactoryBean;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 
+
+/* 访问  www.zhiyueinfo.com 获取更多有价值的课程 */
 @Configuration
 public class QuartzConfiguration {
 	
@@ -55,7 +57,7 @@ public class QuartzConfiguration {
 		cTrigger.setStartDelay(5000);
 		cTrigger.setName("my_trigger");
 		cTrigger.setGroup("trigger_group");
-		cTrigger.setCronExpression("0/3 * * * * ? "); //每间隔5s触发一次Job任务
+		cTrigger.setCronExpression("0/3 * * * * ? "); //每间隔3s触发一次Job任务
 		return cTrigger;
 	}
 	

@@ -1,4 +1,4 @@
-package com.lzj.springbatch.config;
+package com.zhiyueinfo.springbatchtutorial.springbatch.config;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
@@ -7,12 +7,10 @@ import org.springframework.batch.core.configuration.annotation.StepBuilderFactor
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
-import com.lzj.quartz.QuartzConfiguration;
-import com.lzj.springbatch.model.User;
-import com.lzj.springbatch.processor.MyProcessor;
-import com.lzj.springbatch.reader.MyReader;
-import com.lzj.springbatch.writer.MyWriter;
+import com.zhiyueinfo.springbatchtutorial.springbatch.model.User;
+import com.zhiyueinfo.springbatchtutorial.springbatch.processor.MyProcessor;
+import com.zhiyueinfo.springbatchtutorial.springbatch.reader.MyReader;
+import com.zhiyueinfo.springbatchtutorial.springbatch.writer.MyWriter;
 
 @Configuration
 @EnableBatchProcessing

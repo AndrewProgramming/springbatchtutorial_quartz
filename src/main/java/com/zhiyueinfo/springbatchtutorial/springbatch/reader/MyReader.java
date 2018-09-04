@@ -1,4 +1,4 @@
-package com.lzj.springbatch.reader;
+package com.zhiyueinfo.springbatchtutorial.springbatch.reader;
 
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.LineMapper;
@@ -10,7 +10,7 @@ import org.springframework.batch.item.file.transform.LineTokenizer;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.validation.BindException;
 
-import com.lzj.springbatch.model.User;
+import com.zhiyueinfo.springbatchtutorial.springbatch.model.User;
 
 public class MyReader extends FlatFileItemReader<User> {
 	public MyReader(){

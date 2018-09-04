@@ -1,7 +1,7 @@
-package com.lzj.springbatch.writer;
+package com.zhiyueinfo.springbatchtutorial.springbatch.writer;
 import java.util.List;
 import org.springframework.batch.item.ItemWriter;
-import com.lzj.springbatch.model.User;
+import com.zhiyueinfo.springbatchtutorial.springbatch.model.User;
 
 public class MyWriter implements ItemWriter<User> {
 
